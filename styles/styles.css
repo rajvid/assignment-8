@@ -1,0 +1,280 @@
+/* Common Code */
+
+body {
+  font-family: 'Arial Regular';
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.top-container {
+  position: relative;
+  width: 100%;
+  overflow: auto;
+  background-color: #03a3df;
+}
+
+.logo {
+  padding: 30px;
+  float: left;
+}
+
+.top-nav{
+  position: absolute;
+  right: 30px;
+  top: 35%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  border-right: 1px solid white;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.footer-container{
+  background-image: url("../image/footerImage.jpg");
+  background-size: cover;
+  padding: 20px;
+}
+
+.fa-facebook {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 5px;
+}
+
+.fa-twitter {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 5px;
+}
+
+.fa-youtube {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 5px;
+}
+
+footer a {
+  text-decoration:none;
+  color: white;
+  justify-content: space-around;
+}
+
+.content {
+  width: 35%;
+  justify-content: space-around;
+  margin: auto;
+}
+
+/* Home Page Code */
+
+.flexbox {
+  display: flex;
+  padding: 1rem;
+  background-color: white;
+  line-height: 2;
+}
+
+.left {
+  flex: 75%;
+  margin: 0px 10px 0px 133px;
+  justify-content: space-around;
+  text-align: justify;
+}
+
+.right {
+  flex: 25%;
+  margin: 0px 0px 0px 150px;
+  padding-bottom: 10px;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Arial';
+  font-weight: bold;
+  padding: 0px 50px 0px 150px;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: 'Arial';
+  font-weight: bold;
+  padding: 0px 50px 0px 150px;
+  margin-bottom: 0;
+}
+
+hr{
+  margin-left: 125px;
+  margin-right: 125px;
+  border: 1px solid black;
+}
+
+.homepage {
+  margin: auto;
+  padding: 0 150px 0 150px;
+  justify-content: space-around;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+/* Service Page Code */
+
+.classinfo {
+  margin: auto;
+  padding: 20px 150px 20px 150px;
+  justify-content: space-around;
+  text-align: justify;
+}
+
+.classinfo h2 {
+  padding: 0px 0px 0px 0px;
+}
+
+.grid-container3 {
+  display: grid;
+  grid: 400px / 1fr 1fr;
+  grid-gap: 10px;
+  padding: 10px;
+  margin: 20px 150px 20px 150px;
+}
+
+.video2 {
+  padding-left: 70px;
+}
+
+/* Instructor Page Code */
+
+.grid-container {
+  display: grid;
+  grid: 500px / 2fr 1fr;
+  grid-gap: 10px;
+  background-color: #444444;
+  padding: 10px;
+  margin: 20px 150px 20px 150px;
+}
+
+.content1 p {
+  margin-bottom: 0;
+  padding: 0px 0px 0px 50px;
+  color: white;
+  text-align: justify;
+}
+
+.instructor-image1 {
+  float: right;
+  padding: 120px 80px 80px 150px;
+}
+
+.content1 h2 {
+  font-size: 24px;
+  font-family: 'Arial';
+  font-weight: bold;
+  padding: 20px 550px 10px 50px;
+  margin-bottom: 0;
+  color: #03a3df;
+}
+
+.content1 h3 {
+  font-size: 17px;
+  font-family: 'Arial';
+  font-weight: bold;
+  padding: 10px 550px 0px 50px;
+  margin-bottom: 0;
+  color: #03a3df;
+}
+
+.content1 hr {
+  margin-left: 50px;
+  margin-right: 0px;
+  border: 1px solid white;
+}
+
+.grid-container2 {
+  display: grid;
+  grid: 500px / 1fr 2fr;
+  grid-gap: 10px;
+  background-color: #444444;
+  padding: 10px;
+  margin: 20px 150px 20px 150px;
+}
+
+.content2 p {
+  margin-bottom: 0;
+  color: white;
+  text-align: justify;
+  padding: 0px 50px 0px 0px;
+}
+
+.instructor-image2 {
+  float: left;
+  padding: 120px 80px 80px 80px;
+}
+
+.content2 h2 {
+  font-size: 24px;
+  font-family: 'Arial';
+  font-weight: bold;
+  padding: 20px 550px 10px 0px;
+  margin-bottom: 0;
+  color: #03a3df;
+}
+
+.content2 h3 {
+  font-size: 17px;
+  font-family: 'Arial';
+  font-weight: bold;
+  padding: 20px 550px 10px 0px;
+  margin-bottom: 0;
+  color: #03a3df;
+}
+
+.content2 hr {
+  margin-left: 0px;
+  margin-right: 50px;
+  border: 1px solid white;
+}
+
+
+/* Contact Page Code */
+
+.contactpage h2 {
+  font-size: 24px;
+  font-family: 'Arial';
+  font-weight: bold;
+  padding: 50px 50px 0px 150px;
+  margin-bottom: 0;
+}
+.contactpage p {
+  margin: auto;
+  padding: 10px 150px 10px 150px;
+  justify-content: space-around;
+  text-align: justify;
+  line-height: normal;
+}
+
+.contactpage img {
+  padding: 50px 50px 0px 150px;
+}
