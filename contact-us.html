@@ -31,10 +31,127 @@
     <p><strong>Email:</strong></p>
     <p> archery-education@example.com</p>
     <p><strong>Conatct:</strong> (253)555-1010 </p>
-    <br><br><br>
-    <img src="image/map.jpg" alt="Google_Map" height="800" width="1600">
+    <br>
+    <div class="container">
+      <form action="#" method="get">
+        <fieldset>
+          <legend>Inquiry Form</legend>
+          <div class="row">
+            <div class="col-40">
+              <label for="first-name">First Name:</label>
+            </div>
+            <div class="col-42">
+              <input type="text" name=”first-name” id="first-name" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-40">
+              <label for="last-name">Last Name:</label>
+            </div>
+            <div class="col-42">
+              <input type="text" name=”last-name” id="last-name" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-40">
+              <label for="email">E-mail:</label>
+            </div>
+            <div class="col-42">
+              <input type="email" name="user-email" id="email" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-40">
+              <label>Contact No.:</label>
+            </div>
+            <div class="col-42">
+              <input type="text" name="contact-no." optional>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-40">
+              <label>Age:</label>
+            </div>
+            <div class="col-42">
+              <input type="number" min="7" max="50" name="age">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-40">
+              <label>Gender:</label>
+            </div>
+            <div class="col-42">
+              <label for="gender-male">
+                <input type="radio" id="gender-male" name="gender" value="male"> Male
+              </label>
+              <label for="gender-female">
+                <input type="radio" id="gender-female" name="gender" value="female"> Female
+              </label>
+              <label for="gender-other">
+                <input type="radio" id="gender-other" name="gender" value="other"> Other
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-40">
+              <label> Inquire more about?</label>
+            </div>
+            <div class="col-42">
+              <select>
+                <optgroup label="Classes">
+                  <option value="--"> --</option>
+                  <option value="A101">A101 Basic Archery</option>
+                  <option value="A102">A102 Intermediate Archery</option>
+                  <option value="A103">A103 Advanced Archery</option>
+                </optgroup>
+                <optgroup label="Private-Lessons">
+                  <option value=" single-lesson"> Single Lesson</option>
+                  <option value="3-lesson-package"> 3 Lesson Package</option>
+                  <option value="10-lesson-package"> 10 Lesson Package</option>
+                </optgroup>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-40">
+              <label> Ask a question to an instructor?</label>
+            </div>
+            <div class="col-42">
+              <select name="instructor" multiple>
+                <option value="--"> --</option>
+                <option value="name">Nathan Lee</option>
+                <option value="name">Derek Jenkins</option>
+                <option value="name">Amy Smith</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-40">
+              <label>Message: </label>
+            </div>
+            <div class="col-42">
+              <textarea name="message" rows="8" cols="40"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-40">
+              <label>Inquiry Date:</label>
+            </div>
+            <div class="col-42">
+              <input type="date" name="inquiry-date">
+            </div>
+          </div>
+        </fieldset>
+        <div class="row">
+          <input type="submit" value="Submit">
+          <input type="reset">
+        </div>
+      </form>
+    </div>
+    <br>
+    <img src="image/map.jpg" alt="Google_Map" height="500" width="1450">
   </article>
-  <br><br><br><br><br><br>
+  <br><br>
   <footer>
     <div class="footer-container">
       <img src="image/archeryAcademy-logo-white.png" alt="Logo" height="85" width="200">
